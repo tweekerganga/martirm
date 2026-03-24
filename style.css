@@ -1,81 +1,112 @@
-
+/* los putos colores de mierda caca */
 body {
-    margin: 0;
+    background-color: #5f9f9f;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 
+/* caja header (donde el titulo) */
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #111;
-    color: white;
-    padding: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+/* links */
+nav {
+    margin-top: 15px;
 }
 
 nav a {
+    background-color: #5f9f9f;
     color: white;
-    margin-right: 30px;
+    padding: 10px 20px;
     text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid black;
 }
 
+nav a:hover {
+    background-color: black;
+}
+
+/* la mierda esta */
 main {
-    margin-top: 180px;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
+/* sexo */
 section {
-    margin-bottom: 73px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
 }
 
-.download {
-    border: 1px solid #ccc;
+h2 {
+    color: #5f9f9f;
+    border-bottom: 2px solid black;
+}
+
+/* cajas pa instalar caca digital */
+.download-box {
+    background-color: #f0f0f0;
+    border: 2px solid black;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.title2 {
-    size: 25px;
-}
-footer {
-    background: #111;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.download-box h3 {
+    margin-top: 0;
+    color: #5f9f9f;
 }
 
-.footer-links a {
+.download-box a {
+    background-color: green;
     color: white;
-    margin-left: 15px;
+    padding: 10px 20px;
     text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
 }
 
-.logo {
-  position: absolute;
-  bottom: 25px;
-  left: 1800px;
-  height: 80px;
+.download-box a:hover {
+    background-color: darkgreen;
 }
 
-.logo2 {
-  position: relative;
-  top: 0px;
-  left: 50px;
-  height: 400px; 
+/* fotouss */
+.pictures img {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: block;
 }
 
-.logo3 {
-  position: absolute;
-  top: 1111.5px;
-  left: 650px;
-  height: 400px;
+/* polla con queso! */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid black;
 }
 
-.logo4 {
-  position: absolute;
-  top: 1111.5px;
-  left: 1237px;
-  height: 400px;  
+footer a {
+    margin: 0 10px;
+    color: #5f9f9f;
 }
+
+/* no toques nada cabron o te meto una hostia */
+/* hecho por el fokin ALEX de tweek.oops.wtf */
